@@ -20,6 +20,21 @@ ShopKart is a full-stack shopping app built with MongoDB, Express, React, and No
 
 ## Getting started
 
+### Set up the repository
+
+Clone the GitHub repository and enter the project directory:
+
+```bash
+git clone https://github.com/varun-patil-dev/mern-lab-shopkart.git
+cd mern-lab-shopkart
+```
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
 ### Requirements
 
 - Node.js 20.19+ or 22.12+
@@ -64,6 +79,10 @@ npm run client  # Vite frontend
 ```
 
 Create a production frontend bundle with `npm run build`; preview it with `npm run preview`. Run the API with `npm start`.
+
+## What I learned
+
+While building ShopKart, I learned how the pieces of a MERN application fit together. I created Express routes and controllers, modeled customers, products, carts, wishlists, and orders with Mongoose, and connected them to a React interface. I practiced protecting routes with JWT authentication, managing cart and wishlist data, and keeping order totals and payment verification on the server. Integrating Razorpay also taught me how a checkout flow coordinates between the frontend, backend, and a payment provider. Overall, the project helped me understand how to organize and connect the features of a full-stack application, from browsing products through completing an order.
 
 ## API overview
 
